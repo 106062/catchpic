@@ -1,0 +1,36 @@
+==============================
+const fs = require('fs');
+const request = require('request');
+var download = function (uri, filename, callback) {
+	request.head(uri, function (err, res, body) {
+		request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+	});
+};
+download('https://www.google.com/images/srpr/logo3w.png', './images/google.png', function () {
+	console.log('done');
+}); 
+==============================
+const fs = require('fs')
+const request = require('request')
+const download = (url, path, callback) => {
+	request.head(url, (err, res, body) => {
+		request(url)
+			.pipe(fs.createWriteStream(path))
+			.on('close', callback)
+	})
+}
+const url = 'https://…'
+const path = './images/image.png'
+download(url, path, () => {
+	console.log('✅ Done!')
+})
+==============================
+const fs = require('fs');
+const fetch = require('node-fetch');
+const url = "https://www.something.com/.../image.jpg"
+async function download() {
+	const response = await fetch(url);
+	const buffer = await response.buffer();
+	fs.writeFile(`./image.jpg`, buffer, () =>
+		console.log('finished downloading!'));
+}

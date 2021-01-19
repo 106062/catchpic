@@ -1,0 +1,7 @@
+{
+	main_url:"", //主要url
+	name: "", //名字
+	page_S: "", //啟始頁
+	page_E: "", //結束頁
+	img_size: ""
+}
