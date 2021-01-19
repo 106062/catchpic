@@ -19,6 +19,7 @@ async function main() {
 			const name = config.name + "-" + i + "-" + j + ".jpg";
 			try {
 				await downloading(url, name);
+				sleep(1);
 			} catch (err) {
 				console.log(err);
 			}
