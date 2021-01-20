@@ -23,8 +23,7 @@ async function main() {
 				const url = config.main_url + name + "/" + i + "/" + name + "-" + j + ".jpg";
 				const _name = name + "-" + i + "-" + j + ".jpg";
 				try {
-					await downloading(url, _name, folder);
-					sleep(1);
+					await downloading(test_url, _name, folder);
 				} catch (err) {
 					console.log(err);
 				}
