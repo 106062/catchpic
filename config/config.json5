@@ -1,7 +1,17 @@
 {
-	main_url:"", //主要url
-	name: "", //名字
-	page_S: "", //啟始頁
-	page_E: "", //結束頁
-	img_size: ""
+	main_url:"https://www..com/", //主要url
+	img_size: "12",
+	filelist: [
+		{
+			name: "", //名字
+			desc: "", //描述
+			page_S: "", //啟始頁
+			page_E: "" //結束頁
+		},{
+			name: "",
+			desc: "",
+			page_S: "",
+			page_E: ""
+		}
+	]
 }
