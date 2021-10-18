@@ -21,9 +21,11 @@ async function main() {
 		for (let i = start_P; i <= end_P; i++) {
 			for (let j = 1; j <= config.img_size; j++) {
 				const url = config.main_url + name + "/" + i + "/" + name + "-" + j + ".jpg";
+                //const url = config.main_url + "cute-" + name + "-" + j + ".jpg";
 				const _name = name + "-" + i + "-" + j + ".jpg";
+                
 				try {
-					await downloading(test_url, _name, folder);
+					await downloading(url, _name, folder);
 				} catch (err) {
 					console.log(err);
 				}
@@ -33,3 +35,4 @@ async function main() {
 }
 
 main();
+

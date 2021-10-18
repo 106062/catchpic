@@ -1,17 +1,22 @@
 {
-	main_url:"https://www..com/", //主要url
+	main_url:"https://jjgirls.com/japanese/", //主要url
 	img_size: "12",
 	filelist: [
 		{
-			name: "", //名字
+			name: "moe-amatsuka", //名字
 			desc: "", //描述
-			page_S: "", //啟始頁
-			page_E: "" //結束頁
-		},{
+			page_S: "1", //啟始頁
+			page_E: "165" //結束頁
+		}
+        /*,{
 			name: "",
 			desc: "",
 			page_S: "",
 			page_E: ""
-		}
+		}*/
 	]
 }
+
+// https://jjgirls.com/japanese/iori-kogawa/94/
+//
+//                    /uncensoreds/caribbeancom/moca/082410-462/moca-8.jpg
