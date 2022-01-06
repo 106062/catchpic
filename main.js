@@ -12,15 +12,15 @@ const end_page = config.end;
 function main() {
     try {
         let _file = "";
-        let i = 0;
-        for (let start = 0; i < end_page;) {
+        for (let start = 0; start < end_page;) {
             let file = `${name}-${start + 1}-${start + 10}.md`;
             _file = file;
+            console.log(start);
             CreateTitle(file, name, (start + 1), (start + 10));
             for (let j = (start + 1); j <= (start + 10); j++) {
                 PrintPage(_file, name, j);
             }
-            i += 10;
+            start += 10;
         }
     } catch (e) {
         console.log(e);
