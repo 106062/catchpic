@@ -15,3 +15,8 @@ $ git config --global user.email ""
 $ git config --global user.name ""
 ```
 
+# get private token
+
+``` bash
+https://github.com/settings/apps
+```
