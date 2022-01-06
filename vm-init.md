@@ -7,3 +7,10 @@ $ source ~/.profile
 $ nvm install ${node-version}
 ```
 
+# set git user/mail
+
+``` bash
+$ git config --global user.email ""
+$ git config --global user.name ""
+```
+
