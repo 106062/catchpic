@@ -9,3 +9,7 @@
 - [main](./main.js)
 - [Createmd](./lib/Createmd.js)
 - [config](./config/sample.json)
+
+**use**
+create mdfolder like name and markdown add by 10.
+

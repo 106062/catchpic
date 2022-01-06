@@ -12,6 +12,7 @@ const end_page = config.end;
 function main() {
     try {
         let _file = "";
+        let i = 0;
         for (let start = 0; i < end_page;) {
             let file = `${name}-${start + 1}-${start + 10}.md`;
             _file = file;
