@@ -1,18 +1,18 @@
 {
-	main_url:"https://google.com/", //主要url
-	img_size: "12",
-	filelist: [
-		{
-			name: "moe-amatsuka", //名字
-			desc: "", //描述
-			page_S: "1", //啟始頁
-			page_E: "165" //結束頁
-		}
+    main_url:"https://google.com/", //主要url
+    img_size: "12",
+    filelist: [
+        {
+            name: "moe-amatsuka", //名字
+            desc: "", //描述
+            page_S: "1", //啟始頁
+            page_E: "165" //結束頁
+        }
         /*,{
-			name: "",
-			desc: "",
-			page_S: "",
-			page_E: ""
-		}*/
-	]
+            name: "",
+            desc: "",
+            page_S: "",
+            page_E: ""
+        }*/
+    ]
 }
