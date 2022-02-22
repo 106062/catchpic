@@ -1,6 +1,6 @@
 # lazy to catch image
 
-**21/01/19(src/main.js)**
+**22/01/19(src/main.js)**
 - [main](./src/main.js)
 - [imgd](./lib/imgd.js)
 - [config](./config/config.json5)
